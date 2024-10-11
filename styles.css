@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#chores-container {
+  margin-top: 20px;
+}
+
+#chores-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#chores-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
